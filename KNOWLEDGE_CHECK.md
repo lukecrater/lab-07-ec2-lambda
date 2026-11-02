@@ -24,8 +24,7 @@ Suppose you uploaded a new book to your bucket, but several minutes later MongoD
 *Hint:* the class demo [A Lambda function in the AWS Console](https://github.com/ksiller/DS2022/blob/main/demos/07-lambda/README.md), steps [5. Add the S3 trigger](https://github.com/ksiller/DS2022/blob/main/demos/07-lambda/README.md#5-add-the-s3-trigger) and [8. Preview: the same steps with Chalice](https://github.com/ksiller/DS2022/blob/main/demos/07-lambda/README.md#8-preview-the-same-steps-with-chalice).
 
 **Your answer:** Which path did you take in the console (service → page → tab)?
-
-...
+I opened the Lambda service, selected the book-analyzer-dev-analyze_new_book function, and clicked the Configuration tab and then Triggers, which showed S3 connected to the function with the bucket public-lukecrater.
 
 ## 3. Lambda: where do I find the error?
 
