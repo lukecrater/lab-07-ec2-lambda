@@ -13,8 +13,7 @@ Suppose your instance is running and has a public IP address, but `ssh` cannot c
 *Hint:* the lecture slides, and [class/07-ec2](https://github.com/ksiller/DS2022/blob/main/class/07-ec2/README.md), part [3. Launch an EC2 instance in the AWS Console + SSH](https://github.com/ksiller/DS2022/blob/main/class/07-ec2/README.md#3-launch-an-ec2-instance-in-the-aws-console--ssh-15-min) and [Troubleshooting](https://github.com/ksiller/DS2022/blob/main/class/07-ec2/README.md#troubleshooting).
 
 **Your answer:** Which path did you take in the console (service → page → tab)?
-
-...
+I opened the EC2 service in the AWS Console, went to the Security Groups page under Network & Security in the left sidebar, selected launch-wizard-1, and clicked the Inbound rules tab, which showed an SSH rule on port 22 from 0.0.0.0/0.
 
 ## 2. Lambda: why didn't my function run?
 
