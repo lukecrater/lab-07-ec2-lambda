@@ -35,8 +35,7 @@ Suppose the function did start, but MongoDB still has no document for the book. 
 *Hint:* [Part 2, Step 7](README.md#step-7-upload-a-new-book) in the README, and the class demo [A Lambda function in the AWS Console](https://github.com/ksiller/DS2022/blob/main/demos/07-lambda/README.md), step [7. Check the CloudWatch logs](https://github.com/ksiller/DS2022/blob/main/demos/07-lambda/README.md#7-check-the-cloudwatch-logs).
 
 **Your answer:** Which path did you take in the console (service → page → tab)?
-
-...
+From the book-analyzer-dev-analyze_new_book function page, I clicked the Monitor tab, then View CloudWatch logs, and opened the newest log stream, which showed the line pg74.txt: 74383 words.
 
 ## 4. EC2 or Lambda: a backlog or new uploads?
 
