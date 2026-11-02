@@ -50,5 +50,6 @@ For comparison, typical times in this lab:
 - **Lambda** (512 MB): about 2 seconds for one book, including about 1 second to start the function the first time (a cold start). The function runs, and costs, only while a book is analyzed.
 
 **Your answer:**
+Case A: I’d use EC2. At about 0.2 seconds per book, one instance could get through all 5,000 in around 17 minutes, plus a few minutes to set it up, and then I’d terminate it so I’m not paying for idle time.
 
-...
+Case B: I’d use Lambda because each upload can trigger the function automatically, and about 2 seconds per book is well within the one-minute limit. Since only a few books come in each day, an EC2 instance would spend most of its time waiting and still cost money, while Lambda only charges when a book is being analyzed.
